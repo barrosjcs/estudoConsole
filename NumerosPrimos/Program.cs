@@ -1,8 +1,6 @@
 ﻿using System;
 using System.Collections.Generic;
 using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
 
 namespace NumerosPrimos
 {
@@ -55,7 +53,7 @@ namespace NumerosPrimos
             }
             catch(Exception ex)
             {
-                Console.WriteLine("Caracter Inválido. Mensagem: " + ex.Message);
+                Console.WriteLine("Caracter inválido." + (string.IsNullOrWhiteSpace(ex.Message) ? "" : "Mensagem: " + ex.Message));
             }
         }
     }
