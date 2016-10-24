@@ -53,9 +53,9 @@ namespace NumerosPrimos
 
                 Console.ReadKey();
             }
-            catch
+            catch(Exception ex)
             {
-                Console.WriteLine("Caracter Inválido");
+                Console.WriteLine("Caracter Inválido. Mensagem: " + ex.Message);
             }
         }
     }
