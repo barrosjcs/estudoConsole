@@ -1,8 +1,5 @@
 ﻿using System;
-using System.Collections.Generic;
-using System.Linq;
 using System.Text;
-using System.Threading.Tasks;
 
 namespace PE3_MaiorFatorPrimo
 {
@@ -11,6 +8,7 @@ namespace PE3_MaiorFatorPrimo
         static void Main(string[] args)
         {
             // Maior Fator primo de 600851475143
+            DateTime timeIni = DateTime.Now;
 
             StringBuilder sb = new StringBuilder();
             long num = 600851475143;
@@ -48,6 +46,10 @@ namespace PE3_MaiorFatorPrimo
             Console.WriteLine(string.Format("Fatores primos de {0}: {1}", original, sb.ToString().Substring(0, sb.ToString().Length - 2)));
             Console.WriteLine();
             Console.WriteLine(string.Format("Maior fator primo de {0}: {1}", original, maiorFator));
+            Console.WriteLine();
+            TimeSpan ts = DateTime.Now - timeIni;
+            Console.WriteLine(string.Format("Tempo: {0} s", ts.Seconds));
+            // Resultado: 6857
             Console.ReadKey();
         }
     }
