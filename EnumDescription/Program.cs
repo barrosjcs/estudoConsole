@@ -19,6 +19,15 @@ namespace EnumDescription
 
             // Resultado: Correto
 
+            string valorPadrao = Carro.Ferrari.ValorPadrao();
+
+            Carro generico = texto.ReceberEnumDeDescricao<Carro>();
+            Carro generico2 = valorPadrao.ReceberEnumDeValorPadrao<Carro>();
+            
+
+            Console.WriteLine();
+            Console.WriteLine(string.Format("Descricao: {0}, Valor Padrao: {1}", texto, valorPadrao));
+
             Console.ReadKey();
         }
 
