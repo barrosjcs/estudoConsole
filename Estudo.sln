@@ -1,7 +1,7 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
-# Visual Studio 14
-VisualStudioVersion = 14.0.25420.1
+# Visual Studio 15
+VisualStudioVersion = 15.0.27703.2035
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "NumerosPrimos", "NumerosPrimos\NumerosPrimos.csproj", "{009C1F7F-F370-4995-B469-872842806032}"
 EndProject
@@ -24,6 +24,8 @@ EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CopiandoListaEmOutraLista", "CopiandoListaEmOutraLista\CopiandoListaEmOutraLista.csproj", "{7D28E473-E42E-4828-A92C-DD91F40DAD9C}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "EnumDescription", "EnumDescription\EnumDescription.csproj", "{D8EBD41E-AEC0-43A7-9F37-525DFE220C0A}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "HashCode", "HashCode\HashCode.csproj", "{698359A8-76A5-4B04-8967-1F0B2C34B121}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -75,8 +77,15 @@ Global
 		{D8EBD41E-AEC0-43A7-9F37-525DFE220C0A}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{D8EBD41E-AEC0-43A7-9F37-525DFE220C0A}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{D8EBD41E-AEC0-43A7-9F37-525DFE220C0A}.Release|Any CPU.Build.0 = Release|Any CPU
+		{698359A8-76A5-4B04-8967-1F0B2C34B121}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{698359A8-76A5-4B04-8967-1F0B2C34B121}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{698359A8-76A5-4B04-8967-1F0B2C34B121}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{698359A8-76A5-4B04-8967-1F0B2C34B121}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {D52F3F84-262D-4928-AD11-7D7CD40C68FA}
 	EndGlobalSection
 EndGlobal
